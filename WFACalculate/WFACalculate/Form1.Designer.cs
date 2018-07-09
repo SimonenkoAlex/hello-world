@@ -66,7 +66,7 @@
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.button1_Click);
+            this.btnAdd.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnMinus
             // 
@@ -76,7 +76,7 @@
             this.btnMinus.TabIndex = 4;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
-            this.btnMinus.Click += new System.EventHandler(this.button2_Click);
+            this.btnMinus.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnMultiplication
             // 
@@ -86,7 +86,7 @@
             this.btnMultiplication.TabIndex = 5;
             this.btnMultiplication.Text = "*";
             this.btnMultiplication.UseVisualStyleBackColor = true;
-            this.btnMultiplication.Click += new System.EventHandler(this.button3_Click);
+            this.btnMultiplication.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnDivision
             // 
@@ -96,7 +96,7 @@
             this.btnDivision.TabIndex = 6;
             this.btnDivision.Text = "/";
             this.btnDivision.UseVisualStyleBackColor = true;
-            this.btnDivision.Click += new System.EventHandler(this.button4_Click);
+            this.btnDivision.Click += new System.EventHandler(this.btn_Click);
             // 
             // Form1
             // 
@@ -112,7 +112,6 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Калькулятор";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
