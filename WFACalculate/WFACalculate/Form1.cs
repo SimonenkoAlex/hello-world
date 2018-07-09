@@ -16,5 +16,42 @@ namespace WFACalculate
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            double secondArgument = Convert.ToDouble(textBox2.Text);
+            double result = firstArgument + secondArgument;
+            textBox3.Text = result.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            double secondArgument = Convert.ToDouble(textBox2.Text);
+            double result = firstArgument - secondArgument;
+            textBox3.Text = result.ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            double secondArgument = Convert.ToDouble(textBox2.Text);
+            double result = firstArgument * secondArgument;
+            textBox3.Text = result.ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            double secondArgument = Convert.ToDouble(textBox2.Text);
+            double result = firstArgument / secondArgument;
+            textBox3.Text = result.ToString();
+        }
     }
 }
