@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Globalization;
 using System.Windows.Forms;
+using WFACalculate.OperationOneArguments;
+using WFACalculate.OperationTwoArguments;
 
 namespace WFACalculate
 {
@@ -16,7 +19,7 @@ namespace WFACalculate
             double secondArgument = Convert.ToDouble(textBox2.Text);
             ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.Calculate(firstArgument, secondArgument);
-            textBox3.Text = result.ToString();
+            textBox3.Text = result.ToString(CultureInfo.InvariantCulture);
         }
 
         private void btn_ClickOneArgument(object sender, EventArgs e)
@@ -24,7 +27,7 @@ namespace WFACalculate
             double firstArgument = Convert.ToDouble(textBox1.Text);
             IOneArgumentsCalculator calculator = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.Calculate(firstArgument);
-            textBox3.Text = result.ToString();
+            textBox3.Text = result.ToString(CultureInfo.InvariantCulture);
         }
     }
 }

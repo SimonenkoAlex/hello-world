@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WFACalculate
+namespace WFACalculate.OperationOneArguments
 {
     public class LogarithmCalculator: IOneArgumentsCalculator
     {

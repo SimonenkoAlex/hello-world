@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFACalculate", "WFACalculate\WFACalculate.csproj", "{E50A198E-4707-49D0-BB40-251768D16F10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFACalculate.Tests", "WFACalculate.Tests\WFACalculate.Tests.csproj", "{EFD0813B-302C-4603-BD59-2E09D65AEA99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E50A198E-4707-49D0-BB40-251768D16F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E50A198E-4707-49D0-BB40-251768D16F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E50A198E-4707-49D0-BB40-251768D16F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD0813B-302C-4603-BD59-2E09D65AEA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD0813B-302C-4603-BD59-2E09D65AEA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD0813B-302C-4603-BD59-2E09D65AEA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD0813B-302C-4603-BD59-2E09D65AEA99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿namespace WFACalculate
+﻿namespace WFACalculate.OperationTwoArguments
 {
     public interface ITwoArgumentsCalculator
     {

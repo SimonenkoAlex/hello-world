@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WFACalculate
+namespace WFACalculate.OperationTwoArguments
 {
     public static class TwoArgumentsFactory
     {
