@@ -31,14 +31,14 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnMinus = new System.Windows.Forms.Button();
-            this.btnMultiplication = new System.Windows.Forms.Button();
-            this.btnDivision = new System.Windows.Forms.Button();
-            this.btnSin = new System.Windows.Forms.Button();
-            this.btnLog = new System.Windows.Forms.Button();
-            this.btnCos = new System.Windows.Forms.Button();
-            this.btnPow = new System.Windows.Forms.Button();
+            this.Addition = new System.Windows.Forms.Button();
+            this.Subtraction = new System.Windows.Forms.Button();
+            this.Multiplication = new System.Windows.Forms.Button();
+            this.Division = new System.Windows.Forms.Button();
+            this.Sinus = new System.Windows.Forms.Button();
+            this.Logarithm = new System.Windows.Forms.Button();
+            this.Cosine = new System.Windows.Forms.Button();
+            this.Power = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -62,99 +62,107 @@
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 2;
             // 
-            // btnAdd
+            // Addition
             // 
-            this.btnAdd.Location = new System.Drawing.Point(12, 53);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(87, 30);
-            this.btnAdd.TabIndex = 3;
-            this.btnAdd.Text = "+";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btn_Click);
+            this.Addition.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Addition.Location = new System.Drawing.Point(12, 53);
+            this.Addition.Name = "Addition";
+            this.Addition.Size = new System.Drawing.Size(87, 30);
+            this.Addition.TabIndex = 3;
+            this.Addition.Text = "+";
+            this.Addition.UseVisualStyleBackColor = true;
+            this.Addition.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btnMinus
+            // Subtraction
             // 
-            this.btnMinus.Location = new System.Drawing.Point(105, 53);
-            this.btnMinus.Name = "btnMinus";
-            this.btnMinus.Size = new System.Drawing.Size(87, 30);
-            this.btnMinus.TabIndex = 4;
-            this.btnMinus.Text = "-";
-            this.btnMinus.UseVisualStyleBackColor = true;
-            this.btnMinus.Click += new System.EventHandler(this.btn_Click);
+            this.Subtraction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Subtraction.Location = new System.Drawing.Point(105, 53);
+            this.Subtraction.Name = "Subtraction";
+            this.Subtraction.Size = new System.Drawing.Size(87, 30);
+            this.Subtraction.TabIndex = 4;
+            this.Subtraction.Text = "-";
+            this.Subtraction.UseVisualStyleBackColor = true;
+            this.Subtraction.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btnMultiplication
+            // Multiplication
             // 
-            this.btnMultiplication.Location = new System.Drawing.Point(201, 53);
-            this.btnMultiplication.Name = "btnMultiplication";
-            this.btnMultiplication.Size = new System.Drawing.Size(87, 30);
-            this.btnMultiplication.TabIndex = 5;
-            this.btnMultiplication.Text = "*";
-            this.btnMultiplication.UseVisualStyleBackColor = true;
-            this.btnMultiplication.Click += new System.EventHandler(this.btn_Click);
+            this.Multiplication.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Multiplication.Location = new System.Drawing.Point(201, 53);
+            this.Multiplication.Name = "Multiplication";
+            this.Multiplication.Size = new System.Drawing.Size(87, 30);
+            this.Multiplication.TabIndex = 5;
+            this.Multiplication.Text = "*";
+            this.Multiplication.UseVisualStyleBackColor = true;
+            this.Multiplication.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btnDivision
+            // Division
             // 
-            this.btnDivision.Location = new System.Drawing.Point(294, 53);
-            this.btnDivision.Name = "btnDivision";
-            this.btnDivision.Size = new System.Drawing.Size(87, 30);
-            this.btnDivision.TabIndex = 6;
-            this.btnDivision.Text = "/";
-            this.btnDivision.UseVisualStyleBackColor = true;
-            this.btnDivision.Click += new System.EventHandler(this.btn_Click);
+            this.Division.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Division.Location = new System.Drawing.Point(294, 53);
+            this.Division.Name = "Division";
+            this.Division.Size = new System.Drawing.Size(87, 30);
+            this.Division.TabIndex = 6;
+            this.Division.Text = "/";
+            this.Division.UseVisualStyleBackColor = true;
+            this.Division.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btnSin
+            // Sinus
             // 
-            this.btnSin.Location = new System.Drawing.Point(13, 90);
-            this.btnSin.Name = "btnSin";
-            this.btnSin.Size = new System.Drawing.Size(87, 30);
-            this.btnSin.TabIndex = 7;
-            this.btnSin.Text = "SIN";
-            this.btnSin.UseVisualStyleBackColor = true;
-            this.btnSin.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            this.Sinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Sinus.Location = new System.Drawing.Point(13, 90);
+            this.Sinus.Name = "Sinus";
+            this.Sinus.Size = new System.Drawing.Size(87, 30);
+            this.Sinus.TabIndex = 7;
+            this.Sinus.Text = "SIN";
+            this.Sinus.UseVisualStyleBackColor = true;
+            this.Sinus.Click += new System.EventHandler(this.btn_ClickOneArgument);
             // 
-            // btnLog
+            // Logarithm
             // 
-            this.btnLog.Location = new System.Drawing.Point(201, 90);
-            this.btnLog.Name = "btnLog";
-            this.btnLog.Size = new System.Drawing.Size(87, 30);
-            this.btnLog.TabIndex = 8;
-            this.btnLog.Text = "LN";
-            this.btnLog.UseVisualStyleBackColor = true;
-            this.btnLog.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            this.Logarithm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Logarithm.Location = new System.Drawing.Point(201, 90);
+            this.Logarithm.Name = "Logarithm";
+            this.Logarithm.Size = new System.Drawing.Size(87, 30);
+            this.Logarithm.TabIndex = 8;
+            this.Logarithm.Text = "LN";
+            this.Logarithm.UseVisualStyleBackColor = true;
+            this.Logarithm.Click += new System.EventHandler(this.btn_ClickOneArgument);
             // 
-            // btnCos
+            // Cosine
             // 
-            this.btnCos.Location = new System.Drawing.Point(106, 89);
-            this.btnCos.Name = "btnCos";
-            this.btnCos.Size = new System.Drawing.Size(87, 30);
-            this.btnCos.TabIndex = 9;
-            this.btnCos.Text = "COS";
-            this.btnCos.UseVisualStyleBackColor = true;
-            this.btnCos.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            this.Cosine.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Cosine.Location = new System.Drawing.Point(106, 89);
+            this.Cosine.Name = "Cosine";
+            this.Cosine.Size = new System.Drawing.Size(87, 30);
+            this.Cosine.TabIndex = 9;
+            this.Cosine.Text = "COS";
+            this.Cosine.UseVisualStyleBackColor = true;
+            this.Cosine.Click += new System.EventHandler(this.btn_ClickOneArgument);
             // 
-            // btnPow
+            // Power
             // 
-            this.btnPow.Location = new System.Drawing.Point(294, 90);
-            this.btnPow.Name = "btnPow";
-            this.btnPow.Size = new System.Drawing.Size(87, 30);
-            this.btnPow.TabIndex = 10;
-            this.btnPow.Text = "x^2";
-            this.btnPow.UseVisualStyleBackColor = true;
-            this.btnPow.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            this.Power.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Power.Location = new System.Drawing.Point(294, 90);
+            this.Power.Name = "Power";
+            this.Power.Size = new System.Drawing.Size(87, 30);
+            this.Power.TabIndex = 10;
+            this.Power.Text = "x^2";
+            this.Power.UseVisualStyleBackColor = true;
+            this.Power.Click += new System.EventHandler(this.btn_ClickOneArgument);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(389, 161);
-            this.Controls.Add(this.btnPow);
-            this.Controls.Add(this.btnCos);
-            this.Controls.Add(this.btnLog);
-            this.Controls.Add(this.btnSin);
-            this.Controls.Add(this.btnDivision);
-            this.Controls.Add(this.btnMultiplication);
-            this.Controls.Add(this.btnMinus);
-            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.Power);
+            this.Controls.Add(this.Cosine);
+            this.Controls.Add(this.Logarithm);
+            this.Controls.Add(this.Sinus);
+            this.Controls.Add(this.Division);
+            this.Controls.Add(this.Multiplication);
+            this.Controls.Add(this.Subtraction);
+            this.Controls.Add(this.Addition);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -170,14 +178,14 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Button btnMinus;
-        private System.Windows.Forms.Button btnMultiplication;
-        private System.Windows.Forms.Button btnDivision;
-        private System.Windows.Forms.Button btnSin;
-        private System.Windows.Forms.Button btnLog;
-        private System.Windows.Forms.Button btnCos;
-        private System.Windows.Forms.Button btnPow;
+        private System.Windows.Forms.Button Addition;
+        private System.Windows.Forms.Button Subtraction;
+        private System.Windows.Forms.Button Multiplication;
+        private System.Windows.Forms.Button Division;
+        private System.Windows.Forms.Button Sinus;
+        private System.Windows.Forms.Button Logarithm;
+        private System.Windows.Forms.Button Cosine;
+        private System.Windows.Forms.Button Power;
     }
 }
 

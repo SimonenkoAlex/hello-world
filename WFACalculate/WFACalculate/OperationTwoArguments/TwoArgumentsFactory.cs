@@ -8,10 +8,10 @@ namespace WFACalculate
         {
             switch (calculatorName)
             {
-                case "btnAdd": return new AdditionCalculator();
-                case "btnMinus": return new SubtractionCalculator();
-                case "btnMultiplication": return new MultiplyCalculator();
-                case "btnDivision": return new DivisionCalculator();
+                case "Addition": return new AdditionCalculator();
+                case "Subtraction": return new SubtractionCalculator();
+                case "Multiplication": return new MultiplyCalculator();
+                case "Division": return new DivisionCalculator();
                 default: throw new Exception("Неизвестная операция");
             }
         }
