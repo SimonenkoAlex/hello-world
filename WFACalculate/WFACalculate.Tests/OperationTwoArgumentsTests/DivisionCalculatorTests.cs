@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using WFACalculate.OperationTwoArguments;
 
 namespace WFACalculate.Tests.OperationTwoArgumentsTests
@@ -13,6 +14,13 @@ namespace WFACalculate.Tests.OperationTwoArgumentsTests
             var calculator = new DivisionCalculator();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
+        }
+
+        [TestCase(-10, 0)]
+        public void ExceptionTest(double firstValue, double secondValue)
+        {
+            var calculator = new DivisionCalculator();
+            Assert.Throws<Exception>(() => calculator.Calculate(firstValue, secondValue));
         }
     }
 }

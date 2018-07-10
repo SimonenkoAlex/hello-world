@@ -8,7 +8,7 @@ namespace WFACalculate.OperationTwoArguments
         {
             if (secondArgument == 0)
             {
-                throw new Exception("Деление на 0");
+                throw new Exception("Деление на 0 невозможно");
             }
             return firstArgument / secondArgument;
         }
