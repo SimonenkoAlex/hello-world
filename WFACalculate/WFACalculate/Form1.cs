@@ -25,5 +25,13 @@ namespace WFACalculate
             double result = calculator.Calculate(firstArgument, secondArgument);
             textBox3.Text = result.ToString();
         }
+
+        private void btn_ClickOneArgument(object sender, EventArgs e)
+        {
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            IOneArgumentsCalculator calculator = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstArgument);
+            textBox3.Text = result.ToString();
+        }
     }
 }

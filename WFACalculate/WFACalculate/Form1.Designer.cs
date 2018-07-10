@@ -35,6 +35,10 @@
             this.btnMinus = new System.Windows.Forms.Button();
             this.btnMultiplication = new System.Windows.Forms.Button();
             this.btnDivision = new System.Windows.Forms.Button();
+            this.btnSin = new System.Windows.Forms.Button();
+            this.btnLog = new System.Windows.Forms.Button();
+            this.btnCos = new System.Windows.Forms.Button();
+            this.btnPow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -98,11 +102,55 @@
             this.btnDivision.UseVisualStyleBackColor = true;
             this.btnDivision.Click += new System.EventHandler(this.btn_Click);
             // 
+            // btnSin
+            // 
+            this.btnSin.Location = new System.Drawing.Point(13, 90);
+            this.btnSin.Name = "btnSin";
+            this.btnSin.Size = new System.Drawing.Size(87, 30);
+            this.btnSin.TabIndex = 7;
+            this.btnSin.Text = "SIN";
+            this.btnSin.UseVisualStyleBackColor = true;
+            this.btnSin.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            // 
+            // btnLog
+            // 
+            this.btnLog.Location = new System.Drawing.Point(201, 90);
+            this.btnLog.Name = "btnLog";
+            this.btnLog.Size = new System.Drawing.Size(87, 30);
+            this.btnLog.TabIndex = 8;
+            this.btnLog.Text = "LN";
+            this.btnLog.UseVisualStyleBackColor = true;
+            this.btnLog.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            // 
+            // btnCos
+            // 
+            this.btnCos.Location = new System.Drawing.Point(106, 89);
+            this.btnCos.Name = "btnCos";
+            this.btnCos.Size = new System.Drawing.Size(87, 30);
+            this.btnCos.TabIndex = 9;
+            this.btnCos.Text = "COS";
+            this.btnCos.UseVisualStyleBackColor = true;
+            this.btnCos.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            // 
+            // btnPow
+            // 
+            this.btnPow.Location = new System.Drawing.Point(294, 90);
+            this.btnPow.Name = "btnPow";
+            this.btnPow.Size = new System.Drawing.Size(87, 30);
+            this.btnPow.TabIndex = 10;
+            this.btnPow.Text = "x^2";
+            this.btnPow.UseVisualStyleBackColor = true;
+            this.btnPow.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 102);
+            this.ClientSize = new System.Drawing.Size(389, 161);
+            this.Controls.Add(this.btnPow);
+            this.Controls.Add(this.btnCos);
+            this.Controls.Add(this.btnLog);
+            this.Controls.Add(this.btnSin);
             this.Controls.Add(this.btnDivision);
             this.Controls.Add(this.btnMultiplication);
             this.Controls.Add(this.btnMinus);
@@ -126,6 +174,10 @@
         private System.Windows.Forms.Button btnMinus;
         private System.Windows.Forms.Button btnMultiplication;
         private System.Windows.Forms.Button btnDivision;
+        private System.Windows.Forms.Button btnSin;
+        private System.Windows.Forms.Button btnLog;
+        private System.Windows.Forms.Button btnCos;
+        private System.Windows.Forms.Button btnPow;
     }
 }
 
