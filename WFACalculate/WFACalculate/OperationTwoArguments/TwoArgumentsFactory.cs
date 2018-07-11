@@ -12,6 +12,7 @@ namespace WFACalculate.OperationTwoArguments
                 case "Subtraction": return new SubtractionCalculator();
                 case "Multiplication": return new MultiplyCalculator();
                 case "Division": return new DivisionCalculator();
+                case "Powerxy": return new PowerxyCalculator();
                 default: throw new Exception("Неизвестная операция");
             }
         }

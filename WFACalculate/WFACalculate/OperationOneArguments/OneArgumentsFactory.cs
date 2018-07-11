@@ -18,6 +18,11 @@ namespace WFACalculate.OperationOneArguments
                 case "Arctangent": return new ArctangentCalculator();
                 case "Exponent": return new ExponentCalculator();
                 case "Indicative": return new IndicativeCalculator();
+                case "Log10": return new Log10Calculator();
+                case "Module": return new ModuleCalculator();
+                case "Negative": return new NegativeCalculator();
+                case "Hyperbolic": return new HyperbolicCalculator();
+                case "Indicative10": return new Indicative10Calculator();
                 default: throw new Exception("Неизвестная операция");
             }
         }

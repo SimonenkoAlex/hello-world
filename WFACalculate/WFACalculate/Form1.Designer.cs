@@ -45,27 +45,33 @@
             this.Arctangent = new System.Windows.Forms.Button();
             this.Exponent = new System.Windows.Forms.Button();
             this.Indicative = new System.Windows.Forms.Button();
+            this.Hyperbolic = new System.Windows.Forms.Button();
+            this.Negative = new System.Windows.Forms.Button();
+            this.Module = new System.Windows.Forms.Button();
+            this.Log10 = new System.Windows.Forms.Button();
+            this.Indicative10 = new System.Windows.Forms.Button();
+            this.Powerxy = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 12);
+            this.textBox1.Location = new System.Drawing.Point(22, 12);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 20);
+            this.textBox1.Size = new System.Drawing.Size(140, 20);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(141, 12);
+            this.textBox2.Location = new System.Drawing.Point(168, 12);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(120, 20);
+            this.textBox2.Size = new System.Drawing.Size(150, 20);
             this.textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(267, 12);
+            this.textBox3.Location = new System.Drawing.Point(324, 12);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 20);
+            this.textBox3.Size = new System.Drawing.Size(150, 20);
             this.textBox3.TabIndex = 2;
             // 
             // Addition
@@ -115,7 +121,7 @@
             // Sinus
             // 
             this.Sinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Sinus.Location = new System.Drawing.Point(194, 53);
+            this.Sinus.Location = new System.Drawing.Point(201, 52);
             this.Sinus.Name = "Sinus";
             this.Sinus.Size = new System.Drawing.Size(87, 30);
             this.Sinus.TabIndex = 7;
@@ -126,7 +132,7 @@
             // Logarithm
             // 
             this.Logarithm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Logarithm.Location = new System.Drawing.Point(194, 125);
+            this.Logarithm.Location = new System.Drawing.Point(201, 124);
             this.Logarithm.Name = "Logarithm";
             this.Logarithm.Size = new System.Drawing.Size(87, 30);
             this.Logarithm.TabIndex = 8;
@@ -137,7 +143,7 @@
             // Cosine
             // 
             this.Cosine.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Cosine.Location = new System.Drawing.Point(287, 53);
+            this.Cosine.Location = new System.Drawing.Point(294, 52);
             this.Cosine.Name = "Cosine";
             this.Cosine.Size = new System.Drawing.Size(87, 30);
             this.Cosine.TabIndex = 9;
@@ -148,7 +154,7 @@
             // Power
             // 
             this.Power.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Power.Location = new System.Drawing.Point(194, 161);
+            this.Power.Location = new System.Drawing.Point(201, 160);
             this.Power.Name = "Power";
             this.Power.Size = new System.Drawing.Size(87, 30);
             this.Power.TabIndex = 10;
@@ -159,7 +165,7 @@
             // Tangent
             // 
             this.Tangent.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Tangent.Location = new System.Drawing.Point(380, 53);
+            this.Tangent.Location = new System.Drawing.Point(387, 52);
             this.Tangent.Name = "Tangent";
             this.Tangent.Size = new System.Drawing.Size(87, 30);
             this.Tangent.TabIndex = 11;
@@ -170,7 +176,7 @@
             // Arcsine
             // 
             this.Arcsine.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Arcsine.Location = new System.Drawing.Point(194, 89);
+            this.Arcsine.Location = new System.Drawing.Point(201, 88);
             this.Arcsine.Name = "Arcsine";
             this.Arcsine.Size = new System.Drawing.Size(87, 30);
             this.Arcsine.TabIndex = 12;
@@ -181,7 +187,7 @@
             // Arccosine
             // 
             this.Arccosine.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Arccosine.Location = new System.Drawing.Point(288, 89);
+            this.Arccosine.Location = new System.Drawing.Point(294, 88);
             this.Arccosine.Name = "Arccosine";
             this.Arccosine.Size = new System.Drawing.Size(87, 30);
             this.Arccosine.TabIndex = 13;
@@ -192,7 +198,7 @@
             // Arctangent
             // 
             this.Arctangent.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Arctangent.Location = new System.Drawing.Point(382, 89);
+            this.Arctangent.Location = new System.Drawing.Point(387, 88);
             this.Arctangent.Name = "Arctangent";
             this.Arctangent.Size = new System.Drawing.Size(87, 30);
             this.Arctangent.TabIndex = 15;
@@ -203,7 +209,7 @@
             // Exponent
             // 
             this.Exponent.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Exponent.Location = new System.Drawing.Point(288, 125);
+            this.Exponent.Location = new System.Drawing.Point(294, 126);
             this.Exponent.Name = "Exponent";
             this.Exponent.Size = new System.Drawing.Size(87, 30);
             this.Exponent.TabIndex = 16;
@@ -214,7 +220,7 @@
             // Indicative
             // 
             this.Indicative.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Indicative.Location = new System.Drawing.Point(382, 126);
+            this.Indicative.Location = new System.Drawing.Point(387, 126);
             this.Indicative.Name = "Indicative";
             this.Indicative.Size = new System.Drawing.Size(87, 30);
             this.Indicative.TabIndex = 17;
@@ -222,12 +228,84 @@
             this.Indicative.UseVisualStyleBackColor = true;
             this.Indicative.Click += new System.EventHandler(this.btn_ClickOneArgument);
             // 
+            // Hyperbolic
+            // 
+            this.Hyperbolic.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Hyperbolic.Location = new System.Drawing.Point(294, 160);
+            this.Hyperbolic.Name = "Hyperbolic";
+            this.Hyperbolic.Size = new System.Drawing.Size(87, 30);
+            this.Hyperbolic.TabIndex = 18;
+            this.Hyperbolic.Text = "1/x";
+            this.Hyperbolic.UseVisualStyleBackColor = true;
+            this.Hyperbolic.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            // 
+            // Negative
+            // 
+            this.Negative.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Negative.Location = new System.Drawing.Point(387, 160);
+            this.Negative.Name = "Negative";
+            this.Negative.Size = new System.Drawing.Size(87, 30);
+            this.Negative.TabIndex = 19;
+            this.Negative.Text = "-x";
+            this.Negative.UseVisualStyleBackColor = true;
+            this.Negative.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            // 
+            // Module
+            // 
+            this.Module.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Module.Location = new System.Drawing.Point(108, 160);
+            this.Module.Name = "Module";
+            this.Module.Size = new System.Drawing.Size(87, 30);
+            this.Module.TabIndex = 20;
+            this.Module.Text = "|x|";
+            this.Module.UseVisualStyleBackColor = true;
+            this.Module.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            // 
+            // Log10
+            // 
+            this.Log10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Log10.Location = new System.Drawing.Point(108, 126);
+            this.Log10.Name = "Log10";
+            this.Log10.Size = new System.Drawing.Size(87, 30);
+            this.Log10.TabIndex = 21;
+            this.Log10.Text = "LOG10";
+            this.Log10.UseVisualStyleBackColor = true;
+            this.Log10.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            // 
+            // Indicative10
+            // 
+            this.Indicative10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Indicative10.Location = new System.Drawing.Point(108, 89);
+            this.Indicative10.Name = "Indicative10";
+            this.Indicative10.Size = new System.Drawing.Size(87, 30);
+            this.Indicative10.TabIndex = 22;
+            this.Indicative10.Text = "10^x";
+            this.Indicative10.UseVisualStyleBackColor = true;
+            this.Indicative10.Click += new System.EventHandler(this.btn_ClickOneArgument);
+            // 
+            // Powerxy
+            // 
+            this.Powerxy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Powerxy.Location = new System.Drawing.Point(109, 53);
+            this.Powerxy.Name = "Powerxy";
+            this.Powerxy.Size = new System.Drawing.Size(87, 30);
+            this.Powerxy.TabIndex = 23;
+            this.Powerxy.Text = "x^y";
+            this.Powerxy.UseVisualStyleBackColor = true;
+            this.Powerxy.Click += new System.EventHandler(this.btn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(482, 202);
+            this.ClientSize = new System.Drawing.Size(483, 202);
+            this.Controls.Add(this.Powerxy);
+            this.Controls.Add(this.Indicative10);
+            this.Controls.Add(this.Log10);
+            this.Controls.Add(this.Module);
+            this.Controls.Add(this.Negative);
+            this.Controls.Add(this.Hyperbolic);
             this.Controls.Add(this.Indicative);
             this.Controls.Add(this.Exponent);
             this.Controls.Add(this.Arctangent);
@@ -271,6 +349,12 @@
         private System.Windows.Forms.Button Arctangent;
         private System.Windows.Forms.Button Exponent;
         private System.Windows.Forms.Button Indicative;
+        private System.Windows.Forms.Button Hyperbolic;
+        private System.Windows.Forms.Button Negative;
+        private System.Windows.Forms.Button Module;
+        private System.Windows.Forms.Button Log10;
+        private System.Windows.Forms.Button Indicative10;
+        private System.Windows.Forms.Button Powerxy;
     }
 }
 
