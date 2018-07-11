@@ -4,14 +4,15 @@ using WFACalculate.OperationOneArguments;
 
 namespace WFACalculate.Tests.OperationOneArguments
 {
-    [TestFixture]
     class ArcsineCalculatorTests
     {
-        [Test]
-        public void CosineCalculatorTest()
+        [TestCase(0, 0)]
+        [TestCase(1, Math.PI/2)]
+        public void CalculateTest(double firstValue, double expected)
         {
-            ArcsineCalculator calculator = new ArcsineCalculator();
-            Assert.AreEqual(0, calculator.Calculate(0));
+            var calculator = new ArcsineCalculator();
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult);
         }
 
         [TestCase(-100)]

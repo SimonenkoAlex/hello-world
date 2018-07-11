@@ -1,16 +1,18 @@
-﻿using NUnit.Framework;
+﻿using  System;
+using NUnit.Framework;
 using WFACalculate.OperationOneArguments;
 
 namespace WFACalculate.Tests.OperationOneArguments
 {
-    [TestFixture]
     class SinusCalculatorTests
     {
-        [Test]
-        public void SinusCalculatorTest()
+        [TestCase(0, 0)]
+        [TestCase(Math.PI/2, 1)]
+        public void CalculateTest(double firstValue, double expected)
         {
-            SinusCalculator calculator = new SinusCalculator();
-            Assert.AreEqual(0, calculator.Calculate(0));
+            var calculator = new SinusCalculator();
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }

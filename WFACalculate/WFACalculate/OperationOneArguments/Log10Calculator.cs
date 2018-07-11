@@ -2,6 +2,9 @@
 
 namespace WFACalculate.OperationOneArguments
 {
+    /// <summary>
+    /// This class performs a base 10 logarithm.
+    /// </summary>
     public class Log10Calculator: IOneArgumentsCalculator
     {
         public double Calculate(double firstArgument)

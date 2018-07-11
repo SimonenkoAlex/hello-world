@@ -2,6 +2,9 @@
 
 namespace WFACalculate.OperationOneArguments
 {
+    /// <summary>
+    /// This class performs the natural logarithm (if x not negative).
+    /// </summary>
     public class LogarithmCalculator: IOneArgumentsCalculator
     {
         public double Calculate(double firstArgument)

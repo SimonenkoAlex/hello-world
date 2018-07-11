@@ -3,14 +3,15 @@ using WFACalculate.OperationOneArguments;
 
 namespace WFACalculate.Tests.OperationOneArguments
 {
-    [TestFixture]
     class NegativeCalculatorTests
     {
-        [Test]
-        public void SinusCalculatorTest()
+        [TestCase(6, -6)]
+        [TestCase(-4, 4)]
+        public void CalculateTest(double firstValue, double expected)
         {
-            NegativeCalculator calculator = new NegativeCalculator();
-            Assert.AreEqual(-30, calculator.Calculate(30));
+            var calculator = new NegativeCalculator();
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }

@@ -2,6 +2,9 @@
 
 namespace WFACalculate.OperationOneArguments
 {
+    /// <summary>
+    /// This class performs an arccosine function on (-1; 1).
+    /// </summary>
     public class ArccosineCalculator: IOneArgumentsCalculator
     {
         public double Calculate(double firstArgument)

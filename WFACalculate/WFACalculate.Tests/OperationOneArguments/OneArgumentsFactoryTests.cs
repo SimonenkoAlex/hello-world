@@ -8,6 +8,8 @@ namespace WFACalculate.Tests.OperationOneArguments
     {
         [TestCase("Sinus", typeof(SinusCalculator))]
         [TestCase("Logarithm", typeof(LogarithmCalculator))]
+        [TestCase("Cosine", typeof(CosineCalculator))]
+        [TestCase("Arcsine", typeof(ArcsineCalculator))]
         public void CalculateTest(string name, Type type)
         {
             var calculator = OneArgumentsFactory.CreateCalculator(name);

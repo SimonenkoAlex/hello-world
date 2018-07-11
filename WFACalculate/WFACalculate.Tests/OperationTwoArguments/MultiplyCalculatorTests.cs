@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using WFACalculate.OperationTwoArguments;
 
 namespace WFACalculate.Tests.OperationTwoArguments
 {

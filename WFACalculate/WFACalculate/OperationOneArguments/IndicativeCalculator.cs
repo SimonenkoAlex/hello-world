@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WFACalculate.OperationOneArguments
 {
+    /// <summary>
+    /// This class performs an exponential function with base 2.
+    /// </summary>
     public class IndicativeCalculator: IOneArgumentsCalculator
     {
         public double Calculate(double firstArgument)

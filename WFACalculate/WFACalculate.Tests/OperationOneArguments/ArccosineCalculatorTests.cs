@@ -1,21 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NUnit.Framework;
 using WFACalculate.OperationOneArguments;
 
 namespace WFACalculate.Tests.OperationOneArguments
 {
-    [TestFixture]
     class ArccosineCalculatorTests
     {
-        [Test]
-        public void CosineCalculatorTest()
+        [TestCase(1, 0)]
+        [TestCase(-1, Math.PI)]
+        public void CalculateTest(double firstValue, double expected)
         {
-            ArccosineCalculator calculator = new ArccosineCalculator();
-            Assert.AreEqual(0, calculator.Calculate(1));
+            var calculator = new ArccosineCalculator();
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult);
         }
 
         [TestCase(-200)]

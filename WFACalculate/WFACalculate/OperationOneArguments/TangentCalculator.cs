@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WFACalculate.OperationOneArguments
 {
+    /// <summary>
+    /// This class performs the function of the tangent.
+    /// </summary>
     public class TangentCalculator: IOneArgumentsCalculator
     {
         public double Calculate(double firstArgument)

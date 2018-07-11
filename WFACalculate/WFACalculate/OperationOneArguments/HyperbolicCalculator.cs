@@ -2,6 +2,9 @@
 
 namespace WFACalculate.OperationOneArguments
 {
+    /// <summary>
+    /// This class performs an hyperbolic function (x is not equal to 0)
+    /// </summary>
     public class HyperbolicCalculator: IOneArgumentsCalculator
     {
         public double Calculate(double firstArgument)

@@ -4,6 +4,11 @@ namespace WFACalculate.OperationTwoArguments
 {
     public static class TwoArgumentsFactory
     {
+        /// <summary>
+        /// This is a static class-factory, which is responsible for creating instances of calculators by their name.
+        /// </summary>
+        /// <param name="calculatorName"></param>
+        /// <returns></returns>
         public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

@@ -38,7 +38,7 @@ namespace WFACalculate
                 double result = calculator.Calculate(firstArgument);
                 textBox3.Text = result.ToString(CultureInfo.InvariantCulture);
             }
-            catch ( Exception exception)
+            catch (Exception exception)
             {
                 textBox3.Text = exception.Message;
             }
