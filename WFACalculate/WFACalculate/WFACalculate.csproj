@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OperationOneArguments\ArccosineCalculator.cs" />
+    <Compile Include="OperationOneArguments\ArcsineCalculator.cs" />
+    <Compile Include="OperationOneArguments\ArctangentCalculator.cs" />
+    <Compile Include="OperationOneArguments\ExponentCalculator.cs" />
+    <Compile Include="OperationOneArguments\IndicativeCalculator.cs" />
+    <Compile Include="OperationOneArguments\TangentCalculator.cs" />
     <Compile Include="OperationTwoArguments\AdditionCalculator.cs" />
     <Compile Include="OperationOneArguments\CosineCalculator.cs" />
     <Compile Include="OperationTwoArguments\DivisionCalculator.cs" />

@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using WFACalculate.OperationOneArguments;
 
-namespace WFACalculate.Tests.OperationOneArgumentsTests
+namespace WFACalculate.Tests.OperationOneArguments
 {
     [TestFixture]
     class CosineCalculatorTests

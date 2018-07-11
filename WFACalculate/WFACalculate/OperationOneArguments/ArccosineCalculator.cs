@@ -2,15 +2,15 @@
 
 namespace WFACalculate.OperationOneArguments
 {
-    public class LogarithmCalculator: IOneArgumentsCalculator
+    public class ArccosineCalculator: IOneArgumentsCalculator
     {
         public double Calculate(double firstArgument)
         {
-            if (firstArgument <= 0)
+            if (firstArgument < -1 || firstArgument > 1)
             {
                 throw new Exception("Не существует");
             }
-            return Math.Log(firstArgument);
+            return Math.Acos(firstArgument);
         }
     }
 }

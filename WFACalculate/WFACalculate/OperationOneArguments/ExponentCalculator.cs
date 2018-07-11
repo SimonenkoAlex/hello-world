@@ -2,11 +2,11 @@
 
 namespace WFACalculate.OperationOneArguments
 {
-    public class SinusCalculator: IOneArgumentsCalculator
+    public class ExponentCalculator: IOneArgumentsCalculator
     {
         public double Calculate(double firstArgument)
         {
-            return Math.Sin(firstArgument);
+            return Math.Exp(firstArgument);
         }
     }
 }

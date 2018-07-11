@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using WFACalculate.OperationTwoArguments;
 
-namespace WFACalculate.Tests.OperationTwoArgumentsTests
+namespace WFACalculate.Tests.OperationTwoArguments
 {
     class DivisionCalculatorTests
     {

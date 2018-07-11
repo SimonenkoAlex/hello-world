@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OperationOneArgumentsTests\CosineCalculatorTests.cs" />
-    <Compile Include="OperationOneArgumentsTests\LogarithmCalculatorTests.cs" />
-    <Compile Include="OperationTwoArgumentsTests\DivisionCalculatorTests.cs" />
-    <Compile Include="OperationTwoArgumentsTests\MultiplyCalculatorTests.cs" />
-    <Compile Include="OperationOneArgumentsTests\OneArgumentsFactoryTests.cs" />
-    <Compile Include="OperationTwoArgumentsTests\SubtractionCalculateTests.cs" />
-    <Compile Include="OperationTwoArgumentsTests\AdditionCalculatorTest.cs" />
-    <Compile Include="OperationTwoArgumentsTests\TwoArgumentsFactoryTests.cs" />
-    <Compile Include="OperationOneArgumentsTests\PowerCalculatorTests.cs" />
+    <Compile Include="OperationOneArguments\CosineCalculatorTests.cs" />
+    <Compile Include="OperationOneArguments\LogarithmCalculatorTests.cs" />
+    <Compile Include="OperationTwoArguments\DivisionCalculatorTests.cs" />
+    <Compile Include="OperationTwoArguments\MultiplyCalculatorTests.cs" />
+    <Compile Include="OperationOneArguments\OneArgumentsFactoryTests.cs" />
+    <Compile Include="OperationTwoArguments\SubtractionCalculateTests.cs" />
+    <Compile Include="OperationTwoArguments\AdditionCalculatorTest.cs" />
+    <Compile Include="OperationTwoArguments\TwoArgumentsFactoryTests.cs" />
+    <Compile Include="OperationOneArguments\PowerCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="OperationOneArgumentsTests\SinusCalculatorTests.cs" />
+    <Compile Include="OperationOneArguments\SinusCalculatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WFACalculate\WFACalculate.csproj">
