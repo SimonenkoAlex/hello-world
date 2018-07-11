@@ -1,16 +1,15 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using WFACalculate.OperationOneArguments;
 
 namespace WFACalculate.Tests.OperationOneArguments
 {
-    class LogarithmCalculatorTests
+    class IndicativeCalculatorTests
     {
-        [TestCase(1, 0)]
-        [TestCase(Math.E, 1)]
+        [TestCase(1, 2)]
+        [TestCase(3, 8)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new LogarithmCalculator();
+            var calculator = new IndicativeCalculator();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult);
         }

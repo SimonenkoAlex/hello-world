@@ -4,13 +4,13 @@ using WFACalculate.OperationOneArguments;
 
 namespace WFACalculate.Tests.OperationOneArguments
 {
-    class LogarithmCalculatorTests
+    class ExponentCalculatorTest
     {
-        [TestCase(1, 0)]
-        [TestCase(Math.E, 1)]
+        [TestCase(0, 1)]
+        [TestCase(1, Math.E)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new LogarithmCalculator();
+            var calculator = new ExponentCalculator();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult);
         }

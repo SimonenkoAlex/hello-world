@@ -46,8 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OperationOneArguments\ArccosineCalculatorTests.cs" />
+    <Compile Include="OperationOneArguments\ArcsineCalculatorTests.cs" />
+    <Compile Include="OperationOneArguments\ArctangentCalculatorTests.cs" />
     <Compile Include="OperationOneArguments\CosineCalculatorTests.cs" />
+    <Compile Include="OperationOneArguments\ExponentCalculatorTest.cs" />
+    <Compile Include="OperationOneArguments\IndicativeCalculatorTests.cs" />
     <Compile Include="OperationOneArguments\LogarithmCalculatorTests.cs" />
+    <Compile Include="OperationOneArguments\TangentCalculatorTests.cs" />
     <Compile Include="OperationTwoArguments\DivisionCalculatorTests.cs" />
     <Compile Include="OperationTwoArguments\MultiplyCalculatorTests.cs" />
     <Compile Include="OperationOneArguments\OneArgumentsFactoryTests.cs" />
