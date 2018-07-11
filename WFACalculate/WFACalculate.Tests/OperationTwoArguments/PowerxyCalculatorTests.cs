@@ -1,16 +1,21 @@
-﻿using NUnit.Framework;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using NUnit.Framework;
 using WFACalculate.OperationTwoArguments;
 
 namespace WFACalculate.Tests.OperationTwoArguments
 {
-    class SubtractionCalculateTests
+    class PowerxyCalculatorTests
     {
-        [TestCase(0, 0, 0)]
-        [TestCase(3, 4, -1)]
-        [TestCase(-7, -2, -5)]
+        [TestCase(6, 0, 1)]
+        [TestCase(3, 4, 81)]
+        [TestCase(-7, 2, 49)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            var calculator = new SubtractionCalculator();
+            var calculator = new PowerxyCalculator();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }

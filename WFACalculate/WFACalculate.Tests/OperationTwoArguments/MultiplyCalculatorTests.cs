@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace WFACalculate.Tests.OperationTwoArgumentsTests
+namespace WFACalculate.Tests.OperationTwoArguments
 {
     [TestFixture]
     class MultiplyCalculatorTests

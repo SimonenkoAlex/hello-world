@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using WFACalculate.OperationTwoArguments;
 
-namespace WFACalculate.Tests.OperationTwoArgumentsTests
+namespace WFACalculate.Tests.OperationTwoArguments
 {
     [TestFixture]
     public class WfaCalculateTests
