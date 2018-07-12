@@ -7,8 +7,8 @@ namespace WFACalculate.OperationTwoArguments
         /// <summary>
         /// This is a static class-factory, which is responsible for creating instances of calculators by their name.
         /// </summary>
-        /// <param name="calculatorName"></param>
-        /// <returns></returns>
+        /// <param name="calculatorName"> Names of two-argument operations. </param>
+        /// <returns> Return copies of calculators. </returns>
         public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)
